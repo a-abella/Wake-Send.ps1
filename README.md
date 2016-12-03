@@ -18,7 +18,8 @@ Organizational Unit graphical selection dialog provided by MicaH's Choose-ADOrga
   1. The local PC must be on the same domain as the remote PC. 
   2. The remote host must have the local PC in its trusted hosts. 
   3. You must configure the remote and local PCs to do PS Remoting over HTTPS.
-2. ActiveDirectory Powershell module installed on the local PC (available in Windows RSAT).
-3. MicaH's ChooseADOrganizationalUnit.ps1 file for dotsourcing. https://itmicah.wordpress.com/2016/03/29/active-directory-ou-picker-revisited/
+2. Powershell 3.0+ on both the local and remote PCs.
+3. ActiveDirectory Powershell module installed on the local PC (available in Windows RSAT).
+4. MicaH's ChooseADOrganizationalUnit.ps1 file for dotsourcing. https://itmicah.wordpress.com/2016/03/29/active-directory-ou-picker-revisited/
 
 Read through script comments for the lines that must be edited to suit your environment.
