@@ -11,7 +11,7 @@ Organizational Unit graphical selection dialog provided by MicaH's Choose-ADOrga
 2. Hosts are provided by input files, OU selection, or manual entry.
 3. Host MAC addresses are retrieved from data files built from Nmap parsing (macscanner.sh).
 4. Enter PS Remote session to Windows host on the target subnet, and pass hostnames and MAC addresses.
-5. Create "magic" WoL UDP packets with .NET functions for each host and send from remote host.
+5. Create "magic" WoL UDP packets with .NET functions for each host and broadcast from remote host.
 
 ## Requirements ##
 1. Powershell Remoting enabled on remote host. To establish a PS Remote session, at least one of the following must be true: 
