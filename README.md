@@ -15,9 +15,9 @@ Organizational Unit graphical selection dialog provided by MicaH's Choose-ADOrga
 
 ## Requirements ##
 1. Powershell Remoting enabled on remote host. To establish a PS Remote session, at least one of the following must be true: 
-  1. The local PC must be on the same domain as the remote PC. 
-  2. The remote host must have the local PC in its trusted hosts. 
-  3. You must configure the remote and local PCs to do PS Remoting over HTTPS.
+    * The local PC must be on the same domain as the remote PC. 
+    * The remote host must have the local PC in its trusted hosts. 
+    * You must configure the remote and local PCs to do PS Remoting over HTTPS.
 2. Powershell 3.0+ on both the local and remote PCs.
 3. ActiveDirectory Powershell module installed on the local PC (available in Windows RSAT).
 4. MicaH's ChooseADOrganizationalUnit.ps1 file for dotsourcing. https://itmicah.wordpress.com/2016/03/29/active-directory-ou-picker-revisited/
