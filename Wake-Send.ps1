@@ -123,6 +123,10 @@ Invoke-Command -Session $s -Scriptblock {
         for ($i=1; $i -le 3; $i++){
             $UdpClient.Send($MagicPacket,$MagicPacket.Length) > $null
         }
+        $UdpClient.Connect(([System.Net.IPAddress]::Broadcast),9)
+        for ($i=1; $i -le 3; $i++){
+            $UdpClient.Send($MagicPacket,$MagicPacket.Length) > $null
+        }
         $UdpClient.Close()
     }
 
